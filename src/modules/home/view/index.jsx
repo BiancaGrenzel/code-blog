@@ -1,10 +1,13 @@
 import React from 'react'
+import { Header, Title, Subtitle, Input } from './styles'
 
 function Home() {
   return (
-    <div>
-      <h1>This is home page.</h1>
-    </div>
+    <Header>
+      <Title>Codelândia</Title>
+      <Subtitle>blog</Subtitle>
+      <Input placeholder='Pesquise aqui'/>
+    </Header>
   )
 }
 
