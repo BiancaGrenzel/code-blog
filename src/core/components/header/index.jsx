@@ -1,11 +1,13 @@
 import React from 'react'
-import { Header, Title, Subtitle, Input } from './styles'
+import { Header } from './styles'
+import { Typography } from '../../styles'
+import Input from '../input'
 
 function Home() {
   return (
     <Header>
-      <Title>Codelândia</Title>
-      <Subtitle>blog</Subtitle>
+      <Typography.Title>Codelândia</Typography.Title>
+      <Typography.Subtitle>blog</Typography.Subtitle>
       <Input placeholder='Pesquise aqui'/>
     </Header>
   )
