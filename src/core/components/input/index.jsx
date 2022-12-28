@@ -1,4 +1,4 @@
-import { StyledInput } from './styles'
+import { StyledInput } from './style'
 
 const Input = ({placeholder, value, onChange}) => {
     return (
