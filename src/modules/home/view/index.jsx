@@ -1,13 +1,12 @@
 import React from 'react'
-import { Header, Title, Subtitle, Input } from './styles'
+import { Header } from '../../../core/components/header'
+
 
 function Home() {
   return (
-    <Header>
-      <Title>Codelândia</Title>
-      <Subtitle>blog</Subtitle>
-      <Input placeholder='Pesquise aqui'/>
-    </Header>
+    <div>
+      <Header/>
+    </div>
   )
 }
 
