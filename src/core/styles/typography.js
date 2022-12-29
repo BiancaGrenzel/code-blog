@@ -6,7 +6,7 @@ export const Text = styled.p`
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: ${props => props.color ? props.color : "black"};
 `;
 
 export const Title = styled(Text)`
