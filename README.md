@@ -1,9 +1,10 @@
-<h1 align="center">Template with Vite, React, Ant Design, Router and JIT</h1>
+<h1 align="center">News Weblog</h1>
 
 <br/>
 
 <div align="center"> 
-  <img src="https://cdn.sanity.io/images/599r6htc/localized/aa86e965428b06f49ba2c6188545587948a409ae-2120x1000.png?w=1200&q=70&fit=max&auto=format" alt="chat" width="100%" />
+  <img src="https://user-images.githubusercontent.com/57267163/210190108-348007e3-fb31-401f-9698-4ccdfc407a05.png" alt="chat" width="100%" />
+
 </div>
 
 <br/>
@@ -19,6 +20,7 @@
 Here comes the introduction of your project :).
 
 API that i used: https://newsapi.org/
+Figma Project: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=139%3A51&t=aZBogkEQUPFS2oPA-0
 
 <br/>
 
