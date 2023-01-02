@@ -11,4 +11,12 @@ export const Header = styled.div`
     grid-template-areas: 
     "title subtitle ."
     "input input .";
+    @media (max-width: 1400px) {
+        width: calc(100vw - 300px);
+        padding: 32px 150px;
+    }
+    @media (max-width: 700px) {
+        width: calc(100vw - 64px);
+        padding: 32px 32px;
+    }
 `;
