@@ -15,7 +15,8 @@ export const StyledInput = styled.input`
     font-size: 18px;
     line-height: 22px;
     &::placeholder{
-    color: #fff;
+        color: #fff;
         opacity: 0.5;
+        padding: 0px 16px;
     }
 `;
