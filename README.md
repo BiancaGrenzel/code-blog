@@ -1,4 +1,4 @@
-<h1 align="center">News Weblog</h1>
+<h1 align="center">Codelândia 01 - News Blog</h1>
 
 <br/>
 
@@ -15,31 +15,31 @@
 
 <br/>
 
-## Introduction
+## Introdução
 
-Here comes the introduction of your project :).
+Primeiro desafio da trilha da Codelândia!
+Este projeto tem o intuito de renderizar várias notícias pegas da NEWS API.
 
-API that i used: https://newsapi.org/
-Figma Project: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=139%3A51&t=aZBogkEQUPFS2oPA-0
-
+API usada: https://newsapi.org/
 <br/>
+Projeto no Figma: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=139%3A51&t=aZBogkEQUPFS2oPA-0
 
-## 📁 Access to the project
+## 📁 Acesso ao projeto
 
-You can download it, or access by the link below to test it out.
+Você pode clonar o projeto e testa-lo, ou, testar pelo link abaixo!
 <br/>
 Your link here
 <br/>
 
-## 📼 Installation
+## 📼 Instalação
 
-- `Dependencie's installation`: To install the dependencies of the project, use the command below:
+- `Instalação de Dependências`: Para instalar as dependências do projeto, use o código abaixo:
 
 ```bash
 npm install
 ```
 
-or, if you do prefer yarn:
+ou, se preferir, use o yarn:
 
 ```bash
 yarn
@@ -47,13 +47,13 @@ yarn
 
 ## 💡 Startup
 
-- `Project startup`: To start the project, use the command below:
+- `Inicialização do Projeto`: Para iniciar o projeto, use o código abaixo:
 
 ```bash
 npm run dev
 ```
 
-or, if you do prefer yarn:
+ou, se preferir, use o yarn:
 
 ```bash
 yarn dev
@@ -61,17 +61,18 @@ yarn dev
 
 <br/>
 
-## 🔨 Project requirements & features
+## 🔨 Features e Requisitos do projeto
 
-- `Requirement 1` `Title of the requirement`: Here you can talk more about why you decided to add this feature on the project.
+- `Feature 01` `Listagem de notícias`: Listagem simples de notícias, contendo título, texto e data.
+- `Feature 02` `Filtragem de notícias pelo título`: Ter a possibilidade de filtrar as notícias pelo seu título.
 
 <br/>
 
-## ✔️ Techniques and technologies
+## ✔️ Técnicas e Tecnologias
 
-- `Typescript`
+- `Javascript`
 - `React`
-- `Tailwind css`
+- `Styled Components`
 - `DDD - Domain Driven Design`
 - `React Router`
 - `Vite`
