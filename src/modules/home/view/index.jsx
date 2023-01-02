@@ -1,10 +1,9 @@
-import React, { useCallback, useEffect } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
+import moment from 'moment'
+import { news } from '../models'
 import Card from '../../../core/components/card'
 import Header from '../../../core/components/header'
 import { Container } from './styles'
-import { useState } from 'react'
-import moment from 'moment'
-import { news } from '../models/News'
 
 function Home() {
   const [newsList, setNewsList] = useState([])
