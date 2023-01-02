@@ -3,7 +3,7 @@ import moment from 'moment'
 import { news } from '../models'
 import Card from '../../../core/components/card'
 import Header from '../../../core/components/header'
-import { Container } from './styles'
+import { Box, Container } from './styles'
 import Input from '../../../core/components/input'
 
 function Home() {
@@ -37,14 +37,14 @@ function Home() {
   }
 
   return (
-    <div>
+    <Container>
       <Header>
         <Input placeholder='Search by the title' value={filter} onChange={(e) => setFilter(e.target.value)}/>
       </Header>
-      <Container>
+      <Box>
         {renderNews()}
-      </Container>
-    </div>
+      </Box>
+    </Container>
   )
 }
 
