@@ -18,6 +18,8 @@
 
 Here comes the introduction of your project :).
 
+API that i used: https://newsapi.org/
+
 <br/>
 
 ## 📁 Access to the project
