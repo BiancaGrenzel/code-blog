@@ -10,4 +10,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     gap: 32px;
+    @media (max-width: 1400px) {
+        width: calc(100vw - 300px);
+        padding: 32px 150px;
+    }
+    @media (max-width: 700px) {
+        width: calc(100vw - 64px);
+        padding: 32px 32px;
+    }
 `
